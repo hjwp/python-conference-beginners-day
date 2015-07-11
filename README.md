@@ -1,4 +1,4 @@
-# python-conference-beginners-day
+# Python conference Beginners' Day
 
 Some docs to support the organising of a "beginners' day" at Python conferences.  Prepared for EuroPython 2015.
 
