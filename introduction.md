@@ -31,6 +31,18 @@
     - same bits re tab-completion etc
 
 
+## Installing Python (and pip)
+
+
+* On Windows, just download the Python 3 installer from python.org.  Make sure you tick the option that says **add python.exe to Path**
+
+* On Mac, again, download the Python 3 installer from python.org
+
+* On Linux, use your package manager.  On Ubuntu, if you don't have pip, use 
+
+    apt-get install python3-pip
+
+
 ## Install Git-Bash (for Windows)
 
 Although Python does have excellent Windows support, there's a lot of stuff out there on the web that tends to assume you're on Linux or a Mac.  Git-Bash gives you a command-line that's more Unixey, so more likely to be similar to what online tutorials assume you have.
@@ -70,11 +82,6 @@ IPython is an alternative to the regular Python command-line interpreter.  It gi
 Try the %paste command instead of the normal Ctrl+V for pasting mutli-line stuff into Ipython.
 
 IPython is very popular, particularly with the science crowd, but if you fancy being a bit different, try **bpython** instead.
-
-
-
-
-
 
 
 
