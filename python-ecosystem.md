@@ -53,7 +53,7 @@ Paul Graham on the advantages that a good language can bring: http://www.paulgra
 ### Some definitions:
 
 
-Packages:
+#### Packages:
 
 **package**: is the word for a bundle of Python files that you can use as a tool. A "library".  Sometimes called a "module", although that's probably a less precise use of the term.
 
@@ -62,7 +62,7 @@ Packages:
 **pip**: the standard Python command-line package installer.  "pip install package-name" is the basic command.  There used to be one called `easy_install`, essentially the same, now is less used.  You can also manually download the source code for a package and install it by running the setup.py file, `python setup.py install`.
 
 
-Web dev:
+#### Web dev:
 
 **WSGI** the Web Server Gateway Interface is the standard protocol or API for request/response (traditional HTTP, ie not websockets/webrtc etc) web apps.  Django, Flask etc all use WSGI.  You could write your own web app that complies with the WSGI standard without using any of them, but it would be a little pointless.
 
@@ -84,7 +84,41 @@ Web dev:
 
 
 
+#### Science stuff:
 
+**numpy & scipy** are two of the most popular scientific python libraries.  Numpy has lots of tools for doing maths on big arrays of numbers, and scipy has lots of stats and ananalysis functions.  scipy depends on numpy.  If you're on windows, they may not "pip install" cleanly, so go to the scipy website and download installers, or look into Conda.
+
+**IPyton and the IPython Notebook** - as we saw earlier, Ipython is an enhanced Python interpreter.  The Ipython Notebook is the real darling of the scientific Python world though, it gives you a sort of interactive notebook interface, a bit like matlab I'm told.
+
+**pandas** is popular for dealing with tables of data.  Lets you do excel-style pivottables, for example
+
+**matplotlib** is a well-revered tool for drawing graphs
+
+
+##### Science Resources:
+
+High Performance Python (book): http://shop.oreilly.com/product/0636920028963.do
+
+Jake Vanderplaas: https://jakevdp.github.io/ 
+
+
+
+#### Open source on the web, version control
+
+**Version control system (VCS)** - a system for managing snapshots of your source code.  Popular ones these days are git and mercurial.  In the bad old days you had subversion and CVS.
+
+**Git** - probably the most popular version control system (it was built by Linus and the other kernel developers to manage the Linux source code).  It's also probably the least user-friendly!  
+(link to that git-emailing-patches guide?)
+
+**Mercurial (hg)** - is a slightly friendlier version of git, written in Python.  It's used to manage the Python source code.
+
+**GitHub** is the world's most popular code sharing site, and centralised git hosting tool.  You can also put mercurial repos on there.
+
+**Bitbucket** is the plucky underdog to GitHub's thousand-pound gorilla
+
+**GitLab** lets you host your own github
+
+**Patches** are a syntax showing changes to a file.  Also (more or less) called a **diff**.  The `patch` command can apply a patch to a file.  Git is essentially a big complicated system for managing patches
 
 
 # Original notes.
