@@ -15,3 +15,10 @@
 
 - Game of Life
 - others from Moshe
+
+objective:  get ppl to use some of the more interesting python features:
+* magic methods
+* decorators
+* lambda functions
+* context managers
+* generators?
