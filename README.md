@@ -10,16 +10,16 @@ https://ep2015.europython.eu/conference/talks/python-for-beginners
 
 ## Intro lecture.
 
-See introduction.md
+See [introduction.md](introduction.md)
 
 ## Self-directed learning sessions
 
-See tutorials-and-challenges.md
+See [tutorials-and-challenges.md](tutorials-and-challenges.md)
 
 ## Afternoon lecture: The Python Ecosystem
 
-See the-python-ecosystem.md
+See [python-ecosystem.md](python-ecosystem.md)
 
 ##  End of day lecture:  How to get the best out of the conference
 
-See conference.md
+See [conference.md](conference.md)
