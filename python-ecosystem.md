@@ -31,7 +31,7 @@ This document starts with bullet point notes for presenters, and then at the end
 
 # Actually doing stuff (packages!  libraries!)
 
-* Packages.  Pypi.  easy-install, pip.
+* Packages.  Pypi (not to be confused with pypy).  easy-install, pip.
 * Web dev
 * Science stuff
 * Desktop stuff + mobile, Kivy
