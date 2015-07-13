@@ -1,14 +1,13 @@
+This document starts with bullet point notes for presenters, and then at the end has further reading + notes for students
+
+
 # The Python Ecosystem
 
 # The origin story
 
-* Free software and Open Source.  Stallman, GNU, Linux, Torvalds
+* Free software and Open Source.  MIT hackers, the Mac and PC revolution, Stallman, GNU, Linux, Torvalds
 
-### Resources and further reading
-
-* "In the Beginning was the Command Line" by Neal Stephenson: http://www.cryptonomicon.com/beginning.html 
-* "Hackers" by Steve Levy: http://www.stevenlevy.com/index.php/books/hackers 
-* The GNU Philosophy articles: https://www.gnu.org/philosophy/philosophy.html 
+## Resources and further reading
 
 
 
@@ -20,9 +19,8 @@
 (insert some examples of assembly etc?  hello world in different languages?)
 
 
-### Resources and further reading:
+## Resources and further reading:
 
-* Paul Graham on the advantages that a good language can bring: http://www.paulgraham.com/avg.html
 
 ...
 
@@ -40,9 +38,8 @@
 
 
 
-### Resources
+## Resources
 
-* Guido himself on the history and philosopy of Python: https://www.python.org/doc/essays/foreword/
 
 
 
@@ -52,14 +49,34 @@
 * Web dev
 * Science stuff
 * Desktop stuff + mobile, Kivy
-* Open source projects, contributing, Github
+* Open source projects, contributing, Github, sprints
 
 
 
-### Some definitions:
+# Resources and Further reading
+
+History and Free software:
+* "In the Beginning was the Command Line" by Neal Stephenson: http://www.cryptonomicon.com/beginning.html 
+* "Hackers" by Steve Levy: http://www.stevenlevy.com/index.php/books/hackers 
+* The GNU Philosophy articles: https://www.gnu.org/philosophy/philosophy.html 
+
+Programming languages and Python:
+* Paul Graham on the advantages that a good language can bring: http://www.paulgraham.com/avg.html
+* Guido himself on the history and philosopy of Python: https://www.python.org/doc/essays/foreword/
+
+Open Source and the Python ecosystem
+* The Cathedral and the Bazaar: http://www.catb.org/esr/writings/cathedral-bazaar/ 
 
 
-#### Packages:
+Science stuff:
+* High Performance Python (book): http://shop.oreilly.com/product/0636920028963.do
+* Jake Vanderplaas: https://jakevdp.github.io/ 
+
+
+
+# Some definitions and notes to read in your own time (handout)
+
+## Packages:
 
 **package**: is the word for a bundle of Python files that you can use as a tool. A "library".  Sometimes called a "module", although that's probably a less precise use of the term.
 
@@ -68,7 +85,7 @@
 **pip**: the standard Python command-line package installer.  "pip install package-name" is the basic command.  There used to be one called `easy_install`, essentially the same, now is less used.  You can also manually download the source code for a package and install it by running the setup.py file, `python setup.py install`.
 
 
-#### Web dev:
+## Web dev:
 
 **HTML** Hypertext Markup Language is the code for web pages.  What you see when you click "view source" in your browser.  You know, `<html></html>` and all that stuff.
 
@@ -104,7 +121,7 @@
 
 
 
-#### Science stuff:
+## Science stuff:
 
 **numpy & scipy** are two of the most popular scientific python libraries.  Numpy has lots of tools for doing maths on big arrays of numbers, and scipy has lots of stats and ananalysis functions.  scipy depends on numpy.  If you're on windows, they may not "pip install" cleanly, so go to the scipy website and download installers, or look into Conda.
 
@@ -115,11 +132,6 @@
 **matplotlib** is a well-revered tool for drawing graphs
 
 
-##### Science Resources:
-
-High Performance Python (book): http://shop.oreilly.com/product/0636920028963.do
-
-Jake Vanderplaas: https://jakevdp.github.io/ 
 
 
 
@@ -147,19 +159,4 @@ Jake Vanderplaas: https://jakevdp.github.io/
 **Pull Request** is Github's way of managing contributions from random developers to open source projects.  Developer forks the main repo, makes a few commits, then does a "pull request" to ask the owner of the main repo to merge her changes.
 
 **Sprints** are focused periods of contributions to an open-source project, usually where people get together physically in a single room, and new contributors can get advice directly in person from the maintainer(s).  There are usually sprints at the end of a conference!  They're usually very welcoming to beginners...
-
-
-
-
-# Original notes.
-
-Intro to Python (5 mins) what can you do with Python, a bit of history, etc.
-
-Overview of the Python Web Development landscape (15 mins):  django, flask, web2py etc, but also AWS, Heroku, PythonAnywhere, HTML, javascript...
-
-Overview of the Scientific Python landscape (15 mins) numpy, scipy, ipython notebook, pandas, scipy conferences etc
-
-“Getting the best out of the conference” session (30 mins) -- suggested talks, don’t be afraid to ask stupid questions, what is an open space, what is a birds-of-a-feather session, etc
-
-
 
