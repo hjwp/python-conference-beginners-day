@@ -77,11 +77,10 @@ IPython is an alternative to the regular Python command-line interpreter.  It gi
 
     pip install ipython
     # or, on mac/linux
-    sudo pip install ipython
+    sudo pip3 install ipython
 
 Try the %paste command instead of the normal Ctrl+V for pasting mutli-line stuff into Ipython.
 
 IPython is very popular, particularly with the science crowd, but if you fancy being a bit different, try **bpython** instead.
-
 
 

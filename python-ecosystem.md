@@ -22,16 +22,21 @@
 
 ### Resources and further reading:
 
-Paul Graham on the advantages that a good language can bring: http://www.paulgraham.com/avg.html
+* Paul Graham on the advantages that a good language can bring: http://www.paulgraham.com/avg.html
 
+...
 
 
 
 # Python's journey
 
-* Python -- versions, 2 vs 3.  the standard library
+* Python -- ramping up to version 2
+* the standard library
+* Adoption by Google, NASA...
+* Python 3
 * PEPs
-
+* Pypy
+* Adoption in education
 
 
 
@@ -46,7 +51,8 @@ Paul Graham on the advantages that a good language can bring: http://www.paulgra
 * Packages.  Pypi.  easy-install, pip.
 * Web dev
 * Science stuff
-* Github
+* Desktop stuff + mobile, Kivy
+* Open source projects, contributing, Github
 
 
 
@@ -63,6 +69,12 @@ Paul Graham on the advantages that a good language can bring: http://www.paulgra
 
 
 #### Web dev:
+
+**HTML** Hypertext Markup Language is the code for web pages.  What you see when you click "view source" in your browser.  You know, `<html></html>` and all that stuff.
+
+**JavaScript** a hideous car crash of a language that everyone looks down on, partially for good reasons, and partially because they're jealous that it's so popular, because it's the only language you can use in a browser.  It's not that bad, really.
+
+**REST** "Representational State Transfer" is a standard for structuring URLs and how to do HTTP requests for data structures over the Internet.  Used for APIs.  A common pattern these days is to have a basic HTML site which does most of its interaction with your database via javascript and a REST API, instead of doing "normal" browser form interactions...
 
 **WSGI** the Web Server Gateway Interface is the standard protocol or API for request/response (traditional HTTP, ie not websockets/webrtc etc) web apps.  Django, Flask etc all use WSGI.  You could write your own web app that complies with the WSGI standard without using any of them, but it would be a little pointless.
 
@@ -81,6 +93,14 @@ Paul Graham on the advantages that a good language can bring: http://www.paulgra
 **Tornado** is the first non-wsgi web app framework in our list.  It's often used to do websockets, but it can also do traditional request/response stuff.
 
 **Twisted** is the second, it's been around for ages, it actually does all sorts of network stuff, from serial port connections all the way up to being its own web server. Requires a slightly "twisted" way of thinking about programming (callbacks, "deferred" objects...).
+
+**Virtual Machine providers** - people who will host virtual servers for you. **Amazon Web Services (AWS)** is the biggest; Amazon rents out virtual machines and server services -- VMs, but also storage (S3), load balancing, databases...  They have lots of competitors, like **Rackspace**, **Linode**, **Digital Ocean** and more (with varying level of capabilities)
+
+**PaaS (Platform-as-a-Service) providers** - people who want to rent you a service rather than a virtual machine.  Usually you trade off convenience (eg, not having to worry about sysadmin, OS updates, load balancing) against flexibility (you may not be able to do everything you could do on your own server).  The biggest is **Heroku**, see also **PythonAnywhere** for a Python-focused one [1]
+
+* [1] disclosure: original author works for PythonAnywhere.
+
+**Docker** is the trendy technology of the month.  It's a lightweight alternatives to a VM - instead of one physical server running lots of virtual servers, you have one physical or virtual server running lots of "containers", which are little sandboxes that pretend to the process that runs inside them that they are all alone on a server, when in fact they are not.  You can start a VM in 20-60s, but you can start a container in less than a second.
 
 
 
@@ -103,7 +123,7 @@ Jake Vanderplaas: https://jakevdp.github.io/
 
 
 
-#### Open source on the web, version control
+#### Open source, version control
 
 **Version control system (VCS)** - a system for managing snapshots of your source code.  Popular ones these days are git and mercurial.  In the bad old days you had subversion and CVS.
 
@@ -112,22 +132,28 @@ Jake Vanderplaas: https://jakevdp.github.io/
 
 **Mercurial (hg)** - is a slightly friendlier version of git, written in Python.  It's used to manage the Python source code.
 
-**GitHub** is the world's most popular code sharing site, and centralised git hosting tool.  You can also put mercurial repos on there.
+**GitHub** is the world's most popular code sharing site, and centralised git hosting tool.  You can also put mercurial repos on there.  There used to be **Google code**, but that's been retired, and there's sourceforge, which almost everyone has downloaded something off at some point.  GitHub is like sourceforge but more focused on nerds, and with less random adware all over everything.
 
 **Bitbucket** is the plucky underdog to GitHub's thousand-pound gorilla
 
 **GitLab** lets you host your own github
 
-**Patches** are a syntax showing changes to a file.  Also (more or less) called a **diff**.  The `patch` command can apply a patch to a file.  Git is essentially a big complicated system for managing patches
+**Maintainer** is a person who decides what commits to accept into an open source project.  They may not do the bulk of the work, or be a single person...
+
+**Patches** are a syntax showing changes to a file.  Also (more or less) called a **diff**.  The `patch` command can apply a patch to a file.  Git is essentially a big complicated system for managing patches.
+
+**Fork**  refers to the idea of taking a copy of an open source project, and maybe taking it off in a new direction -- either permanently (MariaDB is a fork of the Oracle version of MySQL, LibreOffice is a fork of OpenOffice), or maybe just in the very short term, while a developer tries out a new idea, before submitting patches to merge back into the main project
+
+**Pull Request** is Github's way of managing contributions from random developers to open source projects.  Developer forks the main repo, makes a few commits, then does a "pull request" to ask the owner of the main repo to merge her changes.
+
+**Sprints** are focused periods of contributions to an open-source project, usually where people get together physically in a single room, and new contributors can get advice directly in person from the maintainer(s).  There are usually sprints at the end of a conference!  They're usually very welcoming to beginners...
+
+
 
 
 # Original notes.
 
-Intro to Open Source (15 mins) brief lecture on Free Software, Linux, Open Source, Github, sprints, etc
-
 Intro to Python (5 mins) what can you do with Python, a bit of history, etc.
-
-The Python ecosystem (15 mins): what is pip, pypi, 3 vs 2, standard library, ...
 
 Overview of the Python Web Development landscape (15 mins):  django, flask, web2py etc, but also AWS, Heroku, PythonAnywhere, HTML, javascript...
 
