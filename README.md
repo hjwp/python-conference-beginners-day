@@ -18,7 +18,7 @@ See [tutorials-and-challenges.md](tutorials-and-challenges.md)
 
 ## Afternoon lecture: The Python Ecosystem
 
-See [the-python-ecosystem.md](the-python-ecosystem.md)
+See [python-ecosystem.md](python-ecosystem.md)
 
 ##  End of day lecture:  How to get the best out of the conference
 
