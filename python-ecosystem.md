@@ -1,14 +1,11 @@
+# The Python Ecosystem
+
 This document starts with bullet point notes for presenters, and then at the end has further reading + notes for students
 
-
-# The Python Ecosystem
 
 # The origin story
 
 * Free software and Open Source.  MIT hackers, the Mac and PC revolution, Stallman, GNU, Linux, Torvalds
-
-## Resources and further reading
-
 
 
 
@@ -17,12 +14,6 @@ This document starts with bullet point notes for presenters, and then at the end
 * Programming languages: Assembly, compiled, dynamic. Python's relationship to C. Other similar languages - Ruby, JavaScript, Go.  Mention Java, Lisp?
 
 (insert some examples of assembly etc?  hello world in different languages?)
-
-
-## Resources and further reading:
-
-
-...
 
 
 
@@ -38,18 +29,14 @@ This document starts with bullet point notes for presenters, and then at the end
 
 
 
-## Resources
-
-
-
-
-# Actually doing stuff
+# Actually doing stuff (packages!  libraries!)
 
 * Packages.  Pypi.  easy-install, pip.
 * Web dev
 * Science stuff
 * Desktop stuff + mobile, Kivy
 * Open source projects, contributing, Github, sprints
+* Testing, Agile development, Lean
 
 
 
@@ -71,6 +58,10 @@ Open Source and the Python ecosystem
 Science stuff:
 * High Performance Python (book): http://shop.oreilly.com/product/0636920028963.do
 * Jake Vanderplaas: https://jakevdp.github.io/ 
+
+Web Dev
+* the DjangoGirls tutorial - an excellent guide for total beginners, from "how the internet works" up to getting a blog site live on the Internet. http://tutorial.djangogirls.org/ 
+* http://www.obeythetestinggoat.com -- a good guide for after you've written your first proper Python project.  TDD, Git, deployments. Focused on web development.  More disclosure:  this was written by the first author of this doc.
 
 
 
@@ -135,7 +126,7 @@ Science stuff:
 
 
 
-#### Open source, version control
+## Open source, version control
 
 **Version control system (VCS)** - a system for managing snapshots of your source code.  Popular ones these days are git and mercurial.  In the bad old days you had subversion and CVS.
 
@@ -159,4 +150,13 @@ Science stuff:
 **Pull Request** is Github's way of managing contributions from random developers to open source projects.  Developer forks the main repo, makes a few commits, then does a "pull request" to ask the owner of the main repo to merge her changes.
 
 **Sprints** are focused periods of contributions to an open-source project, usually where people get together physically in a single room, and new contributors can get advice directly in person from the maintainer(s).  There are usually sprints at the end of a conference!  They're usually very welcoming to beginners...
+
+
+## Development methodologies
+
+**Agile software development**  Traditionally, software was developed in the "waterfall" model: requirements gathering first, then design, then build, then test.  In the 90s, people started to try a different mode, with much shorter development cycles (weeks rather than months), aiming to get new features out in front of users as fast as possible, in smaller chunks.  **Extreme Programming (XP)** was the first, and **Scrum** is now quite popular with corporations.  **Kanban** has something to do with this too.
+
+**Lean Startup** is a counterpart to the agile model, where rather than taking months or years to build a fully-featured product and then trying to sell it to consumers, you instead try to build a **Minimum Viable Product**, the simplest, smallest thing that could possibly be useful, show it to users asap, and then iterate on it
+
+**Automated Testing** is a practice that grew out of XP, which is the idea that you can have automated tests for your software.  **unit tests** are small tests for individual little bits of your code, although you can also write end-to-end tests for the whole programming.  **TDD** (Test-Driven-Development) is the crazy idea that you can actually write tests *before* you write the actual code...
 
