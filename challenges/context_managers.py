@@ -3,7 +3,7 @@ Challenge: context managers
 
 Let's take our decorators challenge from earlier, and say
 we want to implement a lock.  Say we're running lots
-of my_programs in parralel, and you want to restrict
+of my_programs in parallel, and you want to restrict
 some functions to only being called once at a time.
 
 Let's say we use a tempfile to hold the lock:
