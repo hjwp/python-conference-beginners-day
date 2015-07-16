@@ -17,8 +17,10 @@
 - others from Moshe
 
 objective:  get ppl to use some of the more interesting python features:
+* list, dict, set comprehensions
 * magic methods
 * decorators
 * lambda functions
 * context managers
 * generators?
+* generator expressions?
