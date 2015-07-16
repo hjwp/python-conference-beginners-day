@@ -1,5 +1,3 @@
-from datetime import datetime
-
 """
 Challenge: use decorators to trace time taken for function calls
 
@@ -20,6 +18,8 @@ it gets a certain value:
     ...
 
 """
+
+from datetime import datetime
 
 def my_program():
     main_screen_turn_on()
