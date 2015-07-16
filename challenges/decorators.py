@@ -9,7 +9,10 @@ and a print(time.time() - start_time) at the end, but that would be
 very repetitive.  Figure out how to use a decorator to apply this
 print pattern to all the functions, without duplicating code.
 
-For bonus points:
+For bonus points: the little time printout should include the name
+of the function
+
+For bonus bonus points:
 - make a decorator that will retry a function up to n times, until
 it gets a certain value:
 
