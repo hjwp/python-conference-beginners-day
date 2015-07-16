@@ -51,6 +51,12 @@ Programming languages and Python:
 * Paul Graham on the advantages that a good language can bring: http://www.paulgraham.com/avg.html
 * Guido himself on the history and philosopy of Python: https://www.python.org/doc/essays/foreword/
 
+Python documentation and the standard library:
+* Official Python documentation: https://docs.python.org/
+* The "batteries included" standard library:
+  * Python 2: https://docs.python.org/2/library/
+  * Python 3: https://docs.python.org/3/library/
+
 Open Source and the Python ecosystem
 * The Cathedral and the Bazaar: http://www.catb.org/esr/writings/cathedral-bazaar/ 
 
