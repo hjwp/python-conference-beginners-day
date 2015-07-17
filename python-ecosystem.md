@@ -5,11 +5,15 @@ This document starts with bullet point notes for presenters, and then at the end
 
 # The origin story
 
+> Python is free software. What does that mean?
+
 * Free software and Open Source.  MIT hackers, the Mac and PC revolution, Stallman, GNU, Linux, Torvalds
 
 
 
 # The world around us
+
+> What are programming languages like and what makes Python special?
 
 * Programming languages: Assembly, compiled, dynamic. Python's relationship to C. Other similar languages - Ruby, JavaScript, Go.  Mention Java, Lisp?
 
@@ -18,6 +22,8 @@ This document starts with bullet point notes for presenters, and then at the end
 
 
 # Python's journey
+
+> Who is this Guido person anyway?
 
 * Python -- ramping up to version 2
 * the standard library
@@ -31,6 +37,7 @@ This document starts with bullet point notes for presenters, and then at the end
 
 # Actually doing stuff with Python (packages!  libraries!)
 
+> OK, we know what Python is, now how do we get stuff done?
 
 * Packages.  Pypi (not to be confused with pypy).  easy-install, pip.
 * Web dev
@@ -38,7 +45,11 @@ This document starts with bullet point notes for presenters, and then at the end
 * Desktop stuff + mobile, Kivy
 
 
-# Actually writing code
+# Actually writing code  (Git! Agile! etc)
+
+> You don't have to learn these yet-immediately-right-now necessarily, but you
+> will want to learn them soon, and you'll want to at least know vaguely what
+> they are...
 
 * Version control.  Why it's better than backups.  Git vs Mercurial vs the bad old days of subversion etc
 * Open source projects, contributing, Github, sprints
@@ -79,11 +90,32 @@ Web Dev
 
 # Some definitions and notes to read in your own time (handout)
 
+## Python
+
+**Monty Python** an English sketch show from the 70s, famous for its absurdist sketches, which Guido named his programming language after.  Google for: "The Cheese Shop", "Dead Parrot", "Bicycle Repair Man", "The Philosophers' Drinking Song", "The Philosophers football", "The Life of Brian", amongst so many others.  The whole snake thing is wrong really, but it's cute, so we like it...
+
+**Python 2 vs Python 3** it's been a slow process, but it's just starting to feel like Python 2 really is the legacy version.
+
+**Guido van Rossum (the BDFL)** Guido is Python's inventor, and today we call him the BDFL - Benevolent Dictator For Life
+
+**PEP** A Python Enhancement Proposal, a public discussion document describing a proposed improvement to Python
+
+**dunder** short for "double-underscore", so you might pronounce `__init__` as "dunder-init".  You don't have to say this if you don't want to though ;)
+
+**duck typing** - some programming languages are strict about objects belonging to particular types, and what types are allowed as arguments to functions, and so on.  Python prefers a "duck typing" approach ("if it walks like a duck, and sounds like a duck, then it is a duck") whereby any object that implements the right methods can "pretend" to be of the right type, so it can be used by a function...
+
+**the REPL** - another word for the interactive interpreter.  It stands for Read-Evaluate-Print-Loop, which is what interpeters do...
+
+**the GIL**  - the "Global Interpreter Lock", an unfortunate feature of the cPython interpreter that means only one thread can do work at any given time -- which is why Python isn't usually very good at multithreading (this is a subtle topic, and things like PyPy are making changes here".
+
+**type hinting** a terrible idea.
+
+
 ## Packages:
 
 **package**: is the word for a bundle of Python files that you can use as a tool. A "library".  Sometimes called a "module", although that's probably a less precise use of the term.
 
-**PyPI**: the Python Package Index.  Used to be known as the Cheese Shop (because http://www.youtube.com/watch?v=PPN3KTtrnZM).  A public directory of python packages, including links to their source code.  Anything on PyPI can be pip installed.  Anyone can upload a package to Pypi, all you need is to read the docs and create a special installation file called *setup.py*.
+**PyPI**: the Python Package Index.  Used to be known as the Cheese Shop (because http://www.youtube.com/watch?v=PPN3KTtrnZM).  A public directory of python packages, including links to their source code.  Anything on PyPI can be pip installed.  Anyone can upload a package to Pypi, all you need is to read the docs and create a special installation file called *setup.py*.  (not to be confused 
 
 **pip**: the standard Python command-line package installer.  "pip install package-name" is the basic command.  There used to be one called `easy_install`, essentially the same, now is less used.  You can also manually download the source code for a package and install it by running the setup.py file, `python setup.py install`.
 
