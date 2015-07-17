@@ -29,12 +29,18 @@ This document starts with bullet point notes for presenters, and then at the end
 
 
 
-# Actually doing stuff (packages!  libraries!)
+# Actually doing stuff with Python (packages!  libraries!)
+
 
 * Packages.  Pypi (not to be confused with pypy).  easy-install, pip.
 * Web dev
 * Science stuff
 * Desktop stuff + mobile, Kivy
+
+
+# Actually writing code
+
+* Version control.  Why it's better than backups.  Git vs Mercurial vs the bad old days of subversion etc
 * Open source projects, contributing, Github, sprints
 * Testing, Agile development, Lean
 

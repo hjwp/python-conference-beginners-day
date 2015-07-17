@@ -22,7 +22,7 @@ everything and answer questions from a beginner.  This might not be as easy
 as it sounds -- conferences are times when we all look forward to catching
 up with our conference friends that we only see once a year, and we enjoying
 geeking out to the absolute max and talking about all the tech stuff we've
-been learning, the geekier the better.  That's a scary conversation for a
+been learning, the more obscure the better.  That's a scary conversation for a
 beginner to interrupt.  But it's also a conversation that's very difficult
 to abandon half-way through to answer some really basic questions;  and, not
 all beginners are charming and polite!
