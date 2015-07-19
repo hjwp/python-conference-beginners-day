@@ -35,3 +35,13 @@ and lots more...
 * an excellent intermediate book:  Fluent Python http://shop.oreilly.com/product/0636920032519.do  (use code AUTHD)
 
 
+###Extras resources for Python Scientific libraries:
+* scientific Python lectures: https://github.com/jrjohansson/scientific-python-lectures
+* data science Python: https://github.com/donnemartin/data-science-ipython-notebooks
+
+* official Pandas tutorial: http://pandas.pydata.org/pandas-docs/stable/tutorials.html
+* Pandas lessons & tutorials: https://bitbucket.org/hrojas/learn-pandas
+* Scikit-learn tutorial by Gael Varoquaux at EP 2014: https://github.com/GaelVaroquaux/sklearn_europython_2014
+* official Seabrn tutorial: https://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html#tutorial
+* official Bokeh tutorial: http://bokeh.pydata.org/en/latest/docs/tutorials.html
+
