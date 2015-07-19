@@ -37,13 +37,14 @@ and lots more...
 
 ###Extras resources for Python Scientific libraries:
 1- (Data) Science resources
-* scientific Python lectures: https://github.com/jrjohansson/scientific-python-lectures
-* data science Python: https://github.com/donnemartin/data-science-ipython-notebooks
+* scientific Python lectures: http://github.com/jrjohansson/scientific-python-lectures
+* data science Python: http://github.com/donnemartin/data-science-ipython-notebooks
 
 2- Library specific
 * official Pandas tutorial: http://pandas.pydata.org/pandas-docs/stable/tutorials.html
-* Pandas lessons & tutorials: https://bitbucket.org/hrojas/learn-pandas
+* Pandas lessons & tutorials: http://bitbucket.org/hrojas/learn-pandas
 * Scikit-learn tutorial by Gael Varoquaux at EP 2014: https://github.com/GaelVaroquaux/sklearn_europython_2014
-* official Seabrn tutorial: https://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html#tutorial
+* simplified text processing with textBlob: https://textblob.readthedocs.org/en/dev/
+* official Seaborn tutorial: http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html#tutorial
 * official Bokeh tutorial: http://bokeh.pydata.org/en/latest/docs/tutorials.html
 
