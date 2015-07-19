@@ -36,9 +36,11 @@ and lots more...
 
 
 ###Extras resources for Python Scientific libraries:
+1- (Data) Science resources
 * scientific Python lectures: https://github.com/jrjohansson/scientific-python-lectures
 * data science Python: https://github.com/donnemartin/data-science-ipython-notebooks
 
+2- Library specific
 * official Pandas tutorial: http://pandas.pydata.org/pandas-docs/stable/tutorials.html
 * Pandas lessons & tutorials: https://bitbucket.org/hrojas/learn-pandas
 * Scikit-learn tutorial by Gael Varoquaux at EP 2014: https://github.com/GaelVaroquaux/sklearn_europython_2014
