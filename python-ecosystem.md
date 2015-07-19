@@ -113,6 +113,8 @@ Git et al
 
 **pip**: the standard Python command-line package installer.  "pip install package-name" is the basic command.  There used to be one called `easy_install`, essentially the same, now is less used.  You can also manually download the source code for a package and install it by running the setup.py file, `python setup.py install`.
 
+**vitural environments** or [virtualenvs](http://docs.python-guide.org/en/latest/dev/virtualenvs/) constitute a very useful python tool to keeps dependencies in separate places and avoid conflicts. Packages can be installed globally or inside a virtualenv.
+
 
 ## Web dev:
 
@@ -150,17 +152,23 @@ Git et al
 
 
 
-## Science stuff:
+## (Data) Science stuff:
 
-**numpy & scipy** are two of the most popular scientific python libraries.  Numpy has lots of tools for doing maths on big arrays of numbers, and scipy has lots of stats and ananalysis functions.  scipy depends on numpy.  If you're on windows, they may not "pip install" cleanly, so go to the scipy website and download installers, or look into Conda.
+**numpy & scipy** are two of the most popular scientific python libraries.  Numpy has lots of tools for doing maths on big arrays of numbers, and scipy has lots of stats and analysis functions.  scipy depends on numpy.  If you're on windows, they may not "pip install" cleanly, so go to the scipy website and download installers, or look into Conda.
 
-**IPyton and the IPython Notebook** - as we saw earlier, Ipython is an enhanced Python interpreter.  The Ipython Notebook is the real darling of the scientific Python world though, it gives you a sort of interactive notebook interface, a bit like matlab I'm told.
+**IPyton and the IPython Notebook** (now [Jupyter project](http://jupyter.org/)) is an HTML notebook environment based on iPython shell. As we saw earlier, Ipython is an enhanced Python interpreter. The Ipython Notebook allows to combine code execution, text and plots and has become the go-to coding environment for the scientific Python world.
 
-**pandas** is popular for dealing with tables of data.  Lets you do excel-style pivottables, for example
+**pandas** is popular data analysis library that reproduces a lot of functionalities found in R and contains plotting functionalities. It is used a lot for dealing with tables of data (CSV, Excel) but also handles other formats like text files, HTML, json, SQL...
 
-**matplotlib** is a well-revered tool for drawing graphs
+**scikit-learn** is machine learning library built on top of SciPy/Numpy. It integrates a wide range of classification, clustering and regression algorithms.
 
+**nltk** is a natural language processing library. It provides tools for the classification, tokenization, stemming, tagging, parsing... of human language data.
 
+**matplotlib** is a well-revered plotting library for Python.
+
+**seaborn** is a data visualisation library based on matplotlib (but much nicer visually).
+
+**bokeh** is an interactive data visualisation tool in the browser (like D3.js).
 
 
 
