@@ -78,6 +78,8 @@ Web Dev
 * the DjangoGirls tutorial - an excellent guide for total beginners, from "how the internet works" up to getting a blog site live on the Internet. http://tutorial.djangogirls.org/ 
 * http://www.obeythetestinggoat.com -- a good guide for after you've written your first proper Python project.  TDD, Git, deployments. Focused on web development.  More disclosure:  this was written by the first author of this doc.
 
+Git et al
+* "Just enough Git to be (less) Dangerous" - http://eev.ee/blog/2015/04/24/just-enough-git-to-be-less-dangerous/
 
 
 # Some definitions and notes to read in your own time (handout)

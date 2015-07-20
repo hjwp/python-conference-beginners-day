@@ -10,7 +10,7 @@ These challenges are aimed at people who've already learned the basics of Python
 
 [context managers](context_managers.py) - aka the "with" statement.  What's it for, and how does it help to make your code look nicer?
 
-[The Game of Life](life.py) - a programming classic.  Try it out using OO and functional paradigms in Python.
+[The Game of Life](life.md) - a programming classic.  Try it out using OO and functional paradigms in Python.
 
 
 # Beyond Python - learning to use third party libraries
@@ -25,3 +25,13 @@ Check out the great tutorials at [newcoder.io](http://newcoder.io/) and learn ho
 * Tk for graphics and GUI stuff
 
 and lots more...
+
+
+# Other resources
+
+* if you fancy something mathematical, try out Project Euler or the Matasano Crypto Challenges
+* if you fancy learning TDD and good web-dev practices, check out www.obeythetestinggoat.com
+* Python Epiphanies! http://swilliams.ca/Python-Epiphanies.pdf 
+* an excellent intermediate book:  Fluent Python http://shop.oreilly.com/product/0636920032519.do  (use code AUTHD)
+
+

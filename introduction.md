@@ -11,6 +11,7 @@
     - DiP
     - challenges
 
+https://github.com/hjwp/python-conference-beginners-day/
 
 * Split out into tables
     - beginners (incl DiP)
