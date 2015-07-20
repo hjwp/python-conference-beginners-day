@@ -36,10 +36,11 @@ https://github.com/hjwp/python-conference-beginners-day/
 
 
 * On Windows, just download the Python 3 installer from python.org.  Make sure you tick the option that says **add python.exe to Path**
+** If you can't install software on your laptop (maybe it's a work laptop), you can try http://winpython.github.io/
 
 * On Mac, again, download the Python 3 installer from python.org
 
-* On Linux, use your package manager.  On Ubuntu, if you don't have pip, use 
+* On Linux, use your package manager.  On Ubuntu, if you don't have pip, use
 
     apt-get install python3-pip
 
@@ -49,7 +50,7 @@ https://github.com/hjwp/python-conference-beginners-day/
 Although Python does have excellent Windows support, there's a lot of stuff out there on the web that tends to assume you're on Linux or a Mac.  Git-Bash gives you a command-line that's more Unixey, so more likely to be similar to what online tutorials assume you have.
 
 Download and install Git from https://git-scm.com/download/win
-Make sure you choose **Run Git and included Unix tools from the Windows command prompt**. 
+Make sure you choose **Run Git and included Unix tools from the Windows command prompt**.
 Then use "Git Bash" for all your command-line stuff.  You can now use ls, grep, and all that sort of unixey goodness!
 
 * Copy + paste:
@@ -74,7 +75,7 @@ A few things I wish someone had told me much earlier on in my unixey adventures!
 
 ## Installing IPython
 
-IPython is an alternative to the regular Python command-line interpreter.  It gives you much better tab-completion and a slighty better way of dealing with history and indentation.  You can install it with 
+IPython is an alternative to the regular Python command-line interpreter.  It gives you much better tab-completion and a slighty better way of dealing with history and indentation.  You can install it with
 
     pip install ipython
     # or, on mac/linux
