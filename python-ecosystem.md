@@ -32,6 +32,7 @@ This document starts with bullet point notes for presenters, and then at the end
 * PEPs
 * Pypy
 * Adoption in education
+* community. nice.  dg etc
 
 
 
