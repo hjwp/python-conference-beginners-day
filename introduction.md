@@ -8,7 +8,7 @@
 
 * Run-through of each tutorial option
     - beginners + DG
-    - DiP
+    - Dive into Python (http://www.diveinto.org/python3/) aka DiP
     - challenges
 
 https://github.com/hjwp/python-conference-beginners-day/

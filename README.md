@@ -5,6 +5,8 @@ Some docs to support the organising of a "beginners' day" at Python conferences.
 http://blog.europython.eu/post/122336430342/europython-2015-beginners-day
 https://ep2015.europython.eu/conference/talks/python-for-beginners
 
+IRC channel for the day can be found here: http://webchat.freenode.net?channels=%23europython-beginners&uio=d4
+
 
 # Day outline
 
