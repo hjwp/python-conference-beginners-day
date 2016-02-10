@@ -1,3 +1,15 @@
+Find these notes at:
+
+https://github.com/hjwp/
+    python-conference-beginners-day/
+
+    python-ecosystem.md
+
+
+Email me at: obeythetestinggoat@gmail.com
+
+
+
 # The Python Ecosystem
 
 This document starts with bullet point notes for presenters, and then at the end has further reading + notes for students
@@ -21,6 +33,36 @@ This document starts with bullet point notes for presenters, and then at the end
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Python's journey
 
 > Who is this Guido person anyway?
@@ -32,7 +74,38 @@ This document starts with bullet point notes for presenters, and then at the end
 * PEPs
 * Pypy
 * Adoption in education
-* community. nice.  dg etc
+* The future of Python: asyncio, pypy, type hinting...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,6 +119,36 @@ This document starts with bullet point notes for presenters, and then at the end
 * Desktop stuff + mobile, Kivy
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Actually writing code  (Git! Agile! etc)
 
 > You don't have to learn these yet-immediately-right-now necessarily, but you
@@ -55,6 +158,74 @@ This document starts with bullet point notes for presenters, and then at the end
 * Version control.  Why it's better than backups.  Git vs Mercurial vs the bad old days of subversion etc
 * Open source projects, contributing, Github, sprints
 * Testing, Agile development, Lean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# The Python Community
+
+* The justin django-migrations story
+* DjangoGirls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
