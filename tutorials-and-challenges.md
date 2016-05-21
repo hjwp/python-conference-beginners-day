@@ -24,3 +24,14 @@ objective:  get ppl to use some of the more interesting python features:
 * context managers
 * generators?
 * generator expressions?
+
+## For sciencey people:
+
+* Vincent's [intro to numpy and pandas notebook](https://github.com/koaning/python_data_intro/tree/master) 
+
+* Conrad's [4 pydata uk beginners' notebooks](http://conrad.pythonanywhere.com/pydata)
+
+* [top 8 pandas tutorials](http://www.dataschool.io/best-python-pandas-resources/)
+
+
+
