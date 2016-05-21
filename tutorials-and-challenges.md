@@ -27,7 +27,13 @@ objective:  get ppl to use some of the more interesting python features:
 
 ## For sciencey people:
 
-* Vincent's [intro to numpy and pandas notebook](https://github.com/koaning/python_data_intro/tree/master) 
+* [Try the Jupyter notebook in your browser](http://jupyter.readthedocs.io/en/latest/tryjupyter.html).
+
+* Check out the [Gallery of interesting notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
+  to see the many great things Python can do and the
+  [Jupyter Notebook Viewer](http://nbviewer.jupyter.org/) for a way to share notebooks
+
+* Vincent's [intro to numpy and pandas notebook](https://github.com/koaning/python_data_intro/tree/master)
 
 * Conrad's [4 pydata uk beginners' notebooks](http://conrad.pythonanywhere.com/pydata)
 

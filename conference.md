@@ -7,4 +7,5 @@
 - asking questions (don't be afraid to interrupt a conversation and ask for a few basic explanations)
 - lunch: don't be scared to rock up to a table and introduce yourself and ask what everyone's talking about
 - same for saying hi to anyone that's standing around on their own.  (if they really wanted to be alone to do work or something, they'd be sitting down)
-
+- stop by the poster session and chat with other Pythonistas about their work
+  in a low key setting
