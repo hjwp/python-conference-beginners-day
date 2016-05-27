@@ -1,5 +1,5 @@
 """
-Imagine you wanted to rimplement "head" and "grep" in python.  Here's a first cut:
+Imagine you wanted to reimplement "head" and "grep" in python.  Here's a first cut:
 """
 
 def head(max_lines, filenames):
