@@ -11,7 +11,9 @@ features of Python, and help you to write more "Pythonic" code...
 
 [decorators](decorators.py) - decorators, a pretty way of transforming functions using other functions. functional programming!  functions.
 
-[context managers](context_managers.py) - aka the "with" statement.  What's it for, and how does it help to make your code look nicer?
+[context managers](context_managers.py) - aka the `with` statement.  What's it for, and how does it help to make your code look nicer?
+
+[generators](generators.py) - more efficient iterators with python and the `yield` statement.
 
 [The Game of Life](life.md) - a programming classic.  Try it out using OO and functional paradigms in Python.
 
