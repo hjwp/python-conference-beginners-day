@@ -1,12 +1,11 @@
 # Python conference Beginners' Day
 
-Some docs to support the organising of a "beginners' day" at Python conferences.  Prepared for EuroPython 2015.
+Some docs to support the organising of a "beginners' day" at Python
+conferences.  Prepared for EuroPython 2015. Updated for Pycon 2016.
 
 http://blog.europython.eu/post/122336430342/europython-2015-beginners-day
 https://ep2015.europython.eu/conference/talks/python-for-beginners
-
-IRC channel for the day can be found here: http://webchat.freenode.net?channels=%23europython-beginners&uio=d4
-
+https://us.pycon.org/2016/schedule/presentation/2258/
 
 # Day outline
 
