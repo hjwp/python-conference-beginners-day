@@ -37,6 +37,5 @@ and lots more...
 * If you fancy learning TDD and good web development practices, check out www.obeythetestinggoat.com
 * Python Epiphanies! http://swilliams.ca/Python-Epiphanies.pdf 
 * an excellent intermediate book:  Fluent Python http://shop.oreilly.com/product/0636920032519.do  (use code AUTHD)
-* head on back to the tutorials page for some [science resources](../tutorials-and-challenges.md)
-
+* head on back to the tutorials page for some [science resources](../tutorials-and-challenges.md#for-sciencey-people)
 
