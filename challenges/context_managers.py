@@ -24,6 +24,9 @@ Incidentally, you've seen in the Python docs that you're meant
 to use "with open" -- that's actually already a context manager.
 Building our own might take away some of the air of mystery from it...
 
+So we want to run "hold_lock" before each function starts, and
+"release_lock" at the end.
+
 So you could use a decorator, but what if the function
 raises an exception?  now you have to have a try/except
 and it gets yucky...

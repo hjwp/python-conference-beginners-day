@@ -3,6 +3,9 @@
 """
 Challenge:  the Pythonic card deck class
 
+The class CardDeck below represents a pack
+of cards.
+
 Find out how to use magic methods so that the
 following three standard functions work:
 
@@ -22,7 +25,6 @@ I stole this example.
 
 
 class CardDeck:
-
     ranks = [str(n) for n in range(2, 11)] + ['J', 'Q', 'K', 'A']
     suits = '♠♡♢♣'
 

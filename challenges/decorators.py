@@ -12,14 +12,6 @@ print pattern to all the functions, without duplicating code.
 For bonus points: the little time printout should include the name
 of the function
 
-For bonus bonus points:
-- make a decorator that will retry a function up to n times, until
-it gets a certain value:
-
-    @repeat(times=5, until_value=True)
-    def somebody_set_us_up_the_bomb():
-    ...
-
 """
 
 from datetime import datetime
@@ -43,4 +35,16 @@ def somebody_set_us_up_the_bomb():
 def take_off_every_zig():
     for i in range(1, 10001):
         print('Go {}! '.format(i), end='')
+
+
+"""
+For bonus bonus points:
+
+- now make a new decorator that will retry a function up to n times, until
+it gets a certain value:
+
+    @repeat(times=5, until_value=True)
+    def somebody_set_us_up_the_bomb():
+    ...
+"""
 
