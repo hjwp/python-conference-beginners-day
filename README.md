@@ -26,4 +26,5 @@ See [python-ecosystem.md](python-ecosystem.md)
 
 ##  End of day lecture:  How to get the best out of the conference
 
-See [conference.md](conference.md)
+See [conference.md](conference.md) and [recommended talks](recommended-talks.md).
+
