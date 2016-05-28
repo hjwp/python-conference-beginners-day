@@ -5,7 +5,7 @@ Imagine you wanted to reimplement "head" and "grep" in python.  Here's a first c
 def head(max_lines, filenames):
     for fn in filenames:
         with open(fn) as f:
-            for ix, line in f:
+            for ix, line in enumerate(f):
                 if ix >= max_lines:
                     return
                 print(line, end='')
