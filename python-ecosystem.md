@@ -272,6 +272,8 @@ Git et al
 
 **the REPL** - another word for the interactive interpreter.  It stands for Read-Evaluate-Print-Loop, which is what interpeters do...
 
+**syntactic sugar** - this is a programming term not specific to Python, but it does come up.  It describes a nice piece of syntax in a language that's not strictly necessary, in the sense that you can achieve the same effect without it, but the "syntactic sugar" version is shorter, more expressive, and makes your code look nicer.  Python's @decorators are an example.
+
 **the GIL**  - the "Global Interpreter Lock", an unfortunate feature of the cPython interpreter that means only one thread can do work at any given time -- which is why Python isn't usually very good at multithreading (this is a subtle topic, and things like PyPy are making changes here".
 
 **type hinting** a terrible idea.
