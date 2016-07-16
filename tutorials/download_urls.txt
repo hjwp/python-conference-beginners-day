@@ -1,10 +1,10 @@
-http://repo.continuum.io/archive/Anaconda3-4.1.1-MacOSX-x86_64.pkg
-http://repo.continuum.io/archive/Anaconda3-4.1.1-Windows-x86_64.exe
+https://github.com/hjwp/python-conference-beginners-day/blob/master/tutorials/python-beginners.zip?raw=true
 http://inventwithpython.com/inventwithpython_3rd.pdf
 https://github.com/downloads/diveintomark/diveintopython3/dive-into-python3.pdf
 https://codeload.github.com/diveintomark/diveintopython3/legacy.zip/master
 https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.6.pkg
 https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe
 https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
-https://github.com/hjwp/python-conference-beginners-day/blob/master/tutorials/python-beginners.zip?raw=true
-
+https://github.com/hjwp/python-conference-beginners-day/archive/master.zip
+http://repo.continuum.io/archive/Anaconda3-4.1.1-MacOSX-x86_64.pkg
+http://repo.continuum.io/archive/Anaconda3-4.1.1-Windows-x86_64.exe
