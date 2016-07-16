@@ -18,7 +18,7 @@ See [introduction.md](introduction.md)
 
 ## Self-directed learning sessions
 
-See [tutorials-and-challenges.md](tutorials-and-challenges.md)
+See [tutorials-and-challenges.md](tutorials/tutorials-and-challenges.md)
 
 ## Afternoon lecture: The Python Ecosystem
 
