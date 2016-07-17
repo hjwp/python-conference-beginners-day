@@ -25,7 +25,7 @@ Tip:
 If you have lines in the docstring (this string) that look like interactive
 Python sessions, you can use the doctest module to run and test this code.
 
-Try: python -m doctest -v magic_methods.py
+Try: python3 -m doctest -v magic_methods.py
 
 See: https://docs.python.org/3/library/doctest.html
 
