@@ -12,7 +12,7 @@ following three standard functions work:
     >>> import random
     >>> deck = CardDeck()
     >>> len(deck)
-    208
+    52
     >>> print(deck[0])
     2♠
     >>> print(deck[-1])
