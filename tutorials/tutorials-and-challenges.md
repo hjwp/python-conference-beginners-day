@@ -14,7 +14,7 @@
 
 ## For people who already know a bit of Python
 
-Try our [Python programming challenges](challenges), designed to improve your knowledge
+Try our [Python programming challenges](../challenges), designed to improve your knowledge
 of some of the more advanced, but more Pythonic, Python features
 
 * list, dict, set comprehensions
