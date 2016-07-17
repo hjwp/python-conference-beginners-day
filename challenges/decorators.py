@@ -46,5 +46,9 @@ it gets a certain value:
     @repeat(times=5, until_value=True)
     def somebody_set_us_up_the_bomb():
     ...
+
+If you like, please take a look at the functools module in the standard
+library; in particular at functools.wraps function, which is a very useful
+decorator to help you building your own decorators.
 """
 
