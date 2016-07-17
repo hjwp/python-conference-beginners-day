@@ -36,6 +36,19 @@ def take_off_every_zig():
     for i in range(1, 10001):
         print('Go {}! '.format(i), end='')
 
+"""
+
+Your decorator might end up looking something like this:
+
+@time_this_function
+def main_screen_turn_on():
+    ...
+
+You'll need to find out what a decorator is and how to
+create it in PYthon!  Google for a guide, or try this
+one: http://thecodeship.com/patterns/guide-to-python-function-decorators/
+
+"""
 
 """
 For bonus bonus points:
