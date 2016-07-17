@@ -9,13 +9,25 @@ of cards.
 Find out how to use magic methods so that the
 following three standard functions work:
 
-    import random
-    deck = CardDeck()
-    len(deck)
-    print(deck[0])
-    print(deck[-1])
-    random.choice(deck)
-    random.shuffle(deck)
+    >>> import random
+    >>> deck = CardDeck()
+    >>> len(deck)
+    52
+    >>> print(deck[0])
+    2♠
+    >>> print(deck[-1])
+    A♣
+    >>> random.choice(deck) in list(deck)
+    True
+    >>> random.shuffle(deck)
+
+Tip:
+If you have lines in the docstring (this string) that look like interactive
+Python sessions, you can use the doctest module to run and test this code.
+
+Try: python -m doctest -v magic_methods.py
+
+See: https://docs.python.org/3/library/doctest.html
 
 
 Credit to Luciano Ramalho and his excellent book Fluent Python, from which
